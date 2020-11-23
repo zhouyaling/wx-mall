@@ -1,0 +1,85 @@
+{
+  "pages": [
+    
+   
+    "pages/index/index",
+    "pages/catalog/catalog",
+    "pages/ucenter/index/index",
+    "pages/auth/btnAuth/btnAuth",
+    "pages/ucenter/helpInfo/helpInfo",
+    "pages/ucenter/help/help",
+    "pages/shopping/selCoupon/selCoupon",
+    "pages/auth/mobile/mobile",
+    "pages/topicDetail/topicDetail",
+    "pages/goods/goods",
+    "pages/shopping/addressAdd/addressAdd",
+    "pages/shopping/address/address",
+    "pages/shopping/checkout/checkout",
+    "pages/cart/cart",
+    "pages/category/category",
+    "pages/search/search",
+    "pages/brand/brand",
+    "pages/brandDetail/brandDetail",
+    "pages/topicComment/topicComment",
+    "pages/commentPost/commentPost",
+    "pages/comment/comment",
+    "pages/topic/topic",
+    "pages/payResult/payResult",
+    "pages/pay/pay",
+    "pages/auth/reset/reset",
+    "pages/auth/register/register",
+    "pages/auth/login/login",
+    "pages/ucenter/collect/collect",
+    "pages/ucenter/coupon/coupon",
+    "pages/ucenter/feedback/feedback",
+    "pages/ucenter/order/order",
+    "pages/ucenter/orderDetail/orderDetail",
+    "pages/ucenter/footprint/footprint",
+    "pages/ucenter/addressAdd/addressAdd",
+    "pages/ucenter/address/address",
+    "pages/hotGoods/hotGoods",
+    "pages/newGoods/newGoods"
+   
+
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "风物聚",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#b4282d",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "iconPath": "static/images/ic_menu_topic_nor.png",
+        "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/ucenter/index/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
